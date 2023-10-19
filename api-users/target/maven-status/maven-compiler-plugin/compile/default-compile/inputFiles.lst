@@ -1,0 +1,6 @@
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/controller/UserController.java
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/repository/UserRepository.java
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/dto/UserLoginDto.java
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/ApiUserApplication.java
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/service/UserService.java
+/Users/salvadiaz/IdeaProjects/DH-PI-G2/api-users/src/main/java/com/dh/user/model/User.java
