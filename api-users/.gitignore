@@ -1,0 +1,50 @@
+# Carpeta de compilación
+target/
+
+# Archivos de configuración generados
+application.properties
+application.yml
+application-dev.yml
+application-prod.yml
+
+# Logs
+logs/
+
+# Archivos temporales
+*.log
+*.log.*
+*.tmp
+
+# Archivos de configuración IDE
+.idea/
+.vscode/
+
+# Archivos de compilación Maven
+mvnw
+mvnw.cmd
+.mvn/
+
+# Dependencias de Maven
+~.nvm/
+~.nvmrc
+~.tool-versions
+
+# Dependencias de Gradle
+.gradle/
+build/
+
+# IDE-specific
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Spring Boot DevTools
+.restart
