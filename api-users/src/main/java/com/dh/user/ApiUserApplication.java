@@ -1,6 +1,8 @@
 package com.dh.user;
 
+import com.dh.user.model.Provider;
 import com.dh.user.model.User;
+import com.dh.user.repository.ProviderRepository;
 import com.dh.user.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -19,13 +21,11 @@ public class ApiUserApplication {
 
 
     @Bean
-    public CommandLineRunner loadData(UserRepository repository) {
+    public CommandLineRunner loadData(UserRepository userRepository, ProviderRepository providerRepository) {
         return (args) -> {
-            if (!repository.findAll().isEmpty()) {
-                return;
-            }
 
-            repository.save(new User(null, "name1", "surname1", "username1", "email@server.com", "password1"));
+            userRepository.save(new User(null, "name1", "surname1", "username1", "email@server.com", "password1"));
+            providerRepository.save(new Provider(null, "name1", "surname1", "businessName1", "username1", "email@server.com", "password1"));
 
         };
     }

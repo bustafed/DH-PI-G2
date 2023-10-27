@@ -5,8 +5,9 @@ spring:
     name: api-users
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/eventapp-dev
-    username: root
+    url: jdbc:mysql://db.ctd.academy:3306/pi21023c01_GRUPO2
+    username: pi21023c01_GRUPO2
+    password: neoQuei3
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
